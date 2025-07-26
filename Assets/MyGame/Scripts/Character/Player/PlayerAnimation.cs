@@ -28,7 +28,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator.SetBool(Animator.StringToHash("isGrounded"), playerMovement.isGrounded);
 
-        //animator.SetFloat("VelocityY", playerMovement.rb.velocity.y);
+        animator.SetFloat("VelocityY", playerMovement.rb.velocity.y);
 
         animator.SetBool(Animator.StringToHash("isMoving"), new Vector3(playerMovement.rb.velocity.x, 0, playerMovement.rb.velocity.z).magnitude >= 0.1f && playerMovement.isGrounded);
 
