@@ -1,12 +1,7 @@
 fileFormatVersion: 2
 guid: 0fd86f122c95d7446825e75d1ff25580
-timeCreated: 1752947967
-licenseType: Free
 PrefabImporter:
   externalObjects: {}
-  addedObjectFileIDs:
-  isPrefabVariant: 0
-  variantParentGUID: 00000000000000000000000000000000
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
